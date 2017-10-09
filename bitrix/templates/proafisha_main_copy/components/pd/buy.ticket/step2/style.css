@@ -1,0 +1,299 @@
+.tickets-date-block{
+	display:none;
+}
+.tickets-date-block table{
+	min-width:50%;
+	margin-right: 70px;
+}
+.allbilet_ticket .tickets-date-block table{
+	width: 100%;
+	margin-right: 0;
+}
+.tickets-date-block h3{
+	text-align: left;
+}
+.tickets-seat{
+	display: inline-block;
+	padding: 5px;
+	background: #EFEBE0;
+	cursor: pointer;
+}
+.tickets-seat.active, .tickets-seat:hover{
+	background: #9E2D0C;
+	color: #fff;
+}
+.allbilet_ticket .tickets-seat.active, .tickets-seat:hover{
+	background: rgb(255,222,1);
+	color: #000;
+}
+.tickets-date-block table td,.tickets-date-block table th{
+	padding: 5px 20px;
+	position: relative;
+	transition: all 0.3s;
+}
+.tickets-row{
+	text-align: center;
+}
+.tickets-date-block table table tr:hover td{
+	background: #EFEFEF;
+}
+.allbilet_ticket .tickets-date-block table tr:hover{
+	background: url(/bitrix/templates/allbilet_copy/img/greydot2.gif);
+}
+.tickets-summary td{
+ padding: 7px;
+ font-size: 12px;
+}
+.tickets-summary-table tr td:nth-child(2){
+	font-weight: bold;
+	min-width: 70px;
+	vertical-align: top;
+	text-align: right;
+}
+.tickets-summary h3{
+	text-align: left;
+}
+.tickets-summary-table{
+	margin-bottom: 10px;
+}
+.tickets-summary{
+	margin-top: 10px;
+	margin-bottom: 30px;
+	border-top: 1px solid #EFEBE0;
+	display:none;
+}
+.tickets-summary input[type=button]{
+	padding: 10px;
+	cursor: pointer;
+}
+.tickets-summary label{
+	display: block;
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+.tickets-summary input[type=text], .tickets-summary textarea{
+	width: 270px;
+	padding: 4px;
+}
+.buy-tickets-ok{
+	padding: 40px 0px;
+	display: none;
+}
+.tickets-price{
+	width: 60px;
+	text-align: center;
+}
+.tickets-sector{
+	width: 100px;
+}		
+.tickets-row{
+	width: 50px;
+}
+#captcha_word{
+	width: 169px;
+	display: block;
+	margin-bottom: 7px;
+}
+.tickets-price{
+	font-size: 13px;
+	font-weight: bold;
+	white-space: nowrap;
+}
+.scheme_link {
+	display: inline-block;
+	position: relative;
+	top: 0px;
+}
+
+/* webest */
+.tickets-summary {
+	background-color: #fff;
+	box-shadow: -1px 3px 22px 0 rgba(50, 50, 50, 0.35);
+	display: none;
+	height: 100%;
+	overflow: auto;
+	padding: 0 15px;
+	position: fixed;
+	right: 0;
+	top: 0;
+	width: 290px;
+	z-index: 10;
+	margin: 0;
+}
+.tickets-summary input[type="button"] {
+	background-color: #d04d27;
+	color: #fff;
+	cursor: pointer;
+	font-weight: bold;
+	margin-bottom: 60px;
+	padding: 5px 25px;
+	font-size: 1em;
+	font-size:1.3em;
+}
+.tickets-summary > table td {
+	display:inline-block;
+}
+.tickets-summary > table td.comment {
+	height:70px;
+}
+#order-status {
+	display: block;
+	color: red;
+	font-size: 1.4em;
+	margin: 10px 0 0;
+}
+.tickets-summary td {
+	font-size: 12px;
+	padding: 2px 7px;
+}
+.tickets-summary h4 {
+	text-align: left;
+	font-style: normal;
+	margin: 5px 0;
+	font-weight: normal;
+	font-size: 1.2em;
+}
+.tickets-summary h3 {
+	margin: 10px 0 0;
+}
+.tickets-summary table {
+	width:100%;
+}
+.closeWrap {
+	position:relative;
+}
+.tickets-summary .close {
+	display: block;
+	position: absolute;
+	top: 15px;
+	right: 0px;
+	width: 16px;
+	height: 16px;
+	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAElBMVEXqAAD8oaH/AAD/ra3/vr7///91+I/7AAAAQklEQVR42oXPwQoAIAgD0JXu/385FfTQgnYweKAp9pUXmE+swAFWAG8owQBTqjQQ8SQOcAdRQVtkqHy7dDFd/X/tAVqqAopyUfkOAAAAAElFTkSuQmCC);
+	cursor: pointer;
+}
+.hidden {
+	display:none;
+}
+
+.tickets-date-block table tr.sectors {
+	font-weight: bold;
+	background-color: #EFEFEF;
+	cursor:pointer;
+}
+.tickets-date-block table tr.sectors td {
+	font-size: 1em !important;
+	padding: 5px 12px;
+}
+.tickets-date-block table tr.seats {
+	/*display:none;*/
+}
+.tickets-date-block table tr.seats .tickets-seat {
+	padding: 6px;
+	border: 2px solid #d04d27;
+	margin: 2px 0;
+}
+.tickets-date-block table tr.seats table{
+	border-collapse: collapse;
+}
+.tickets-date-block table tr.seats table td, .tickets-date-block table tr.seats table th {
+	font-size: 13px !important;
+	text-align: center;
+	border: 1px solid #EFEFEF;
+	border-collapse: collapse;
+}
+.tickets-date-block table tr.seats table .tickets-price {
+	color: #653004;
+}
+.sectorList {
+	list-style:none;
+	display: block;
+	margin:15px 0 15px 0;
+	padding:0;
+	width:65%;
+}
+.sectorList li {
+	display: inline-block;
+	padding: 5px 10px;
+	border: 2px solid #164573;
+	margin: 5px 10px 5px 0;
+	font-size: 1.3em;
+	/*font-weight:bold;*/
+	transition: all 0.3s;
+	cursor:pointer;
+	background-color: #EFEFEF
+}
+.sectorList li:hover, .sectorList li.active {
+	color: #d04d27;
+	border: 2px solid #d04d27;
+}
+
+table.ticketsTable .header {
+	cursor: pointer;
+	background-color: #CCC;
+	color: #FFFFFF;
+	font-weight: normal;
+	height: 42px;
+}
+table.ticketsTable .header:after {
+	top: 10px;
+	right: 5px;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+	border-color: rgba(255, 255, 255, 0);
+	border-bottom-color: #eeeeee;
+	border-width: 5px;
+	margin-left: -5px;
+	transition: all 0.3s;
+}
+table.ticketsTable .header:before {
+	top: 25px;
+	right: 5px;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+	border-color: rgba(255, 255, 255, 0);
+	border-top-color: #eeeeee;
+	border-width: 5px;
+	margin-left: -5px;
+	transition: all 0.3s;
+}
+table.ticketsTable .header.headerSortDown, table.ticketsTable .header.headerSortUp {
+	font-weight: bold;
+	color: #d04d27;
+	background-color: #EFEFEF;
+}
+table.ticketsTable .header.headerSortDown:after {
+	border-color: rgba(255, 255, 255, 0);
+	border-bottom-color: #d04d27;
+}
+table.ticketsTable .header.headerSortDown:before {
+	border-width: 0px;
+}
+table.ticketsTable .header.headerSortUp:before {
+	border-color: rgba(255, 255, 255, 0);
+	border-top-color: #d04d27;
+}
+table.ticketsTable .header.headerSortUp:after {
+	border-width: 0px;
+}
+.event-date{
+	font-size: 12px;
+}
+#event_date{
+	font-size: 14px;
+	font-weight: bold;
+	margin: 20px 0;
+	border: 2px solid #d04d27;
+}
+#event_date:hover{
+	background: #ffde01;
+	color: #000;
+}

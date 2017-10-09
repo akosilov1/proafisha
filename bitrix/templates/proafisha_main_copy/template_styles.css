@@ -1,0 +1,220 @@
+.errortext {color:red;}
+
+.notetext {color:green;}
+
+.starrequired {color:red;}
+
+/*Data table*/
+table.data-table
+{
+	border:1px solid #AFA79A;
+	border-collapse:collapse;
+}
+
+/*Body cell*/
+table.data-table tbody td
+{
+	background-color:#F7F7F6;
+	background-image:none;
+	color:#333;
+}
+
+/*Any cell*/
+table.data-table td
+{
+	border:1px solid #AFA79A;
+	background-color:#F7F7F6;
+	color:#333;
+	padding:3px 5px;
+}
+
+table.data-table td table.data-table-noborder td
+{
+	border:0px solid #AFA79A;
+	padding-right:3px;
+}
+
+/*Head cell*/
+table.data-table thead td, table.data-table th
+{
+	background-color:#F0F0F0;
+	text-align:left;
+	font-weight:normal;
+	background-image:none;
+	border:1px solid #AFA79A;
+	padding:4px;
+	color:#333;
+}
+ul.dropdown,
+ul.dropdown li,
+ul.dropdown ul {
+ list-style: none;
+ margin: 0;
+ padding: 0;
+}
+
+ul.dropdown {
+ width:100%;
+ display:block;
+ height:40px;
+ padding-bottom:5px
+}
+
+ul.dropdown li {
+ float: left;
+ line-height: 1.3em;
+ zoom: 1;
+ width:20%;
+ height:40px;
+ display:block;
+ background:#c68413
+}
+
+ul.dropdown li.hover,
+ul.dropdown li:hover {
+ position: relative;
+ z-index: 599;
+ cursor: default;
+}
+ul.dropdown li a {
+	display:block;
+	text-align:center;
+	font-size:17px;
+	margin-top:12px;
+	color:#fff
+}
+#rightmenu td {
+	text-align:center;
+	border-top:1px solid #CCC;
+}
+#rightmenu a {
+	color:#7A766E
+}
+
+/* webest */
+.contentBlockWrap {
+	text-align:center;
+	position: relative;
+}
+.contentBlock {
+	width: 200px;
+	display:inline-block;
+}
+.contentBlock a {
+	color: #333333;
+	font-size: 1.1em;
+}
+.contentBlock > a:nth-of-type(4) {
+	display:block;
+	height:30px;
+}
+.contentBlock .name {
+	font-size: 1.1em;
+	font-weight:bold;
+	text-transform:uppercase;
+	margin: 5px 0 28px 0;
+	display: inline-block;
+	text-decoration:none;
+	height: 52px;
+}
+.contentBlock .prev {
+	display: inline-block;
+    margin: 0 0 7px 0;
+}
+.contentBlock .date {
+	display: inline-block;
+    margin: 0 0 0 0;
+}
+.changeTickets {
+	display:block;
+	position:absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.changeTickets::before {
+    background-color: #fff;
+    border: 2px solid #9e2d0c;
+    content: "Выбрать билеты";
+    display: inline-block;
+    /*margin-left: 10px;*/
+    padding: 2px 10px;
+	transition: all 0.3s;
+	margin: 10px 0 10px -72px;
+    position: absolute;
+    color: #9e2d0c;
+    width: 120px;
+    bottom: 55px;
+    left: 50%;
+}
+.changeTickets:hover::before {
+	background-color: #9e2d0c;
+	color: #ffffff;
+	text-decoration:none;
+}
+.changeTickets:hover {
+	text-decoration:none;
+}
+
+.changeTickets img {
+    display: none;
+}
+.head-top td{
+	padding: 5px 50px 5px 5px;
+}
+.head-top-tel {
+	white-space: nowrap;
+}
+.head-top-tel a{
+	font-size: 26px;
+    color: #000;
+    font-style: italic;
+    font-weight: 700;
+}
+.head-top-tel span{
+	font-size: 16px;
+}
+td.head-top-logo{
+	padding-left: 50px;
+	padding-right: 5px;
+	width: 300px;
+}
+td.head-top-search{
+	padding: 0 30px;
+}
+.search-form {
+	font-size: 14px;
+}
+.search-form input{
+	padding: 5px 7px;
+	border: 2px solid #9e2d0c ;
+	border-right: none;
+	flex-grow: 10;
+    flex-basis: 100px;
+    flex-shrink: 5;
+}
+.search-form input[type=submit]{
+	background: #fff ;
+	color: #9e2d0c;
+	border: 2px solid #9e2d0c;
+	cursor: pointer;
+	flex-grow: 1;
+    flex-basis: 50px;
+    flex-shrink: 1;
+}
+.search-form input[type=submit]:hover{
+	background: #9e2d0c;
+	color: #fff;
+}
+.search-form form{
+	display: flex;
+}
+
+.text-center{
+	text-align: center;
+}
+.tbody .tr .td .td{
+margin-bottom: 15px;
+margin-top: 15px;
+}

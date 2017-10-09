@@ -1,0 +1,28 @@
+<?if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die();?>
+
+
+<div class="places_left_menu">
+
+<?if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die();?>
+
+<?$place = $_REQUEST["ELEMENT_ID"];?>
+
+<form action="/place.php" name="places" style="display:inline">
+
+<select name="ELEMENT_ID" size="1" onchange="this.form.submit()">
+
+<option value="all">(любом месте)</option>
+
+<?foreach($arResult["ITEMS"] as $arItem):?>
+
+<?
+if ($arItem["ID"] == $place) $selected = ' selected';
+else $selected = '';
+?>
+
+<option<?=$selected?> value="<?=$arItem["ID"]?>"><?=$arItem["NAME"]?></option>
+
+<?endforeach;?>
+
+</select>
+</form>
