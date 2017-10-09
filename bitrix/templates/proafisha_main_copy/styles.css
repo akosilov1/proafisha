@@ -291,16 +291,16 @@ table.lenta p.content {margin:0; font-family:Arial; font-size:100%; color:#00000
 	text-decoration:none;
 }
 .buttonLink.buyTikets::before {
-	content: "Купить билеты";
+	content: "ГЉГіГЇГЁГІГј ГЎГЁГ«ГҐГІГ»";
 }
 .buttonLink.schema::before {
-	content: "Схема зала";
+	content: "Г‘ГµГҐГ¬Г  Г§Г Г«Г ";
 }
 .buttonLink.buyTiketsBillboard::before {
-	content: "Заказ билетов и репертуар";
+	content: "Г‡Г ГЄГ Г§ ГЎГЁГ«ГҐГІГ®Гў ГЁ Г°ГҐГЇГҐГ°ГІГіГ Г°";
 }
 .buttonLink.billboard::before {
-	content: "Репертуар";
+	content: "ГђГҐГЇГҐГ°ГІГіГ Г°";
 }
 .linkWithBorder {
 	margin-bottom: 5px;
@@ -322,3 +322,4 @@ table.lenta p.content {margin:0; font-family:Arial; font-size:100%; color:#00000
 #site-content{
 	padding: 0 10px 0;
 }
+#test{}
